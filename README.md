@@ -50,7 +50,7 @@ No, the accuracy score was **`72.9%`**.
     3. **Third Optimization Attempt:** I then used KerasTuner to try to optimize my model.  
     ![third optimization edit](/Readme_imgs/optimization-3-edit.png)  
     Unfortunately, it was not able to find a model with an accuracy score above 75%.  
-    ![third optimization score](/Readme_imgs/optimization-3-accuracy.png)  
+    ![third optimization score](/Readme_imgs/optimization-3-acc.png)  
 
 ## Summary  
 Overall, none of the deep learning models tested were able to predict funding success at above a 75% accuracy despite automating optimization. This may be due to an overfitting issue or limited data. I would recommend increasing the training data and also changing the variables so that there is less categorical and more numerical data. For example, instead of recording the income range of an applicant, it would be more benefitial to get an actual number, even if it is a rough estimate. They could collect additional information such as number of employees. I would also recommend trying the SVM (support vector learning) algorithm as it can handle categorical data well according to this [article from techtarget](https://www.techtarget.com/whatis/definition/support-vector-machine-SVM#:~:text=A%20support%20vector%20machine%20(SVM)%20is%20a%20type%20of%20supervised,data%20set%20into%20two%20groups.).  
