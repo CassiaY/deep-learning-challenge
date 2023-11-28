@@ -49,7 +49,7 @@ No, the accuracy score was **`72.9%`**.
 
     3. **Third Optimization Attempt:** I then used KerasTuner to try to optimize my model.  
     ![third optimization edit](/Readme_imgs/optimization-3-edit.png)  
-    Unfortunately, it was not able to find a model with an accuracy score above 75%.   
+    Unfortunately, it was not able to find a model with an accuracy score above 75%.  
     ![third optimization score](/Readme_imgs/optimization-3-accuracy.png)  
 
 ## Summary  
